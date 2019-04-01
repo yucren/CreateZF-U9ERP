@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.serviceModel>
+    <services>
+   
+	<service name="CreateZF_BPProject.CreateZfStub">
+        <endpoint contract="CreateZF_BPProject.ICreateZf"
+                  binding="basicHttpBinding" />
+
+	</service>
+ 
+    </services>
+</system.serviceModel>
+</configuration>
